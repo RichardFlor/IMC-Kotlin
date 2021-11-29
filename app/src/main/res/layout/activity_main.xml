@@ -91,6 +91,7 @@
                 >
 
                 <EditText
+                    android:id="@+id/edit_login_email"
                     android:inputType="textEmailAddress"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -107,6 +108,7 @@
                 style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
 
                 <EditText
+                    android:id="@+id/edit_login_senha"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="@string/login_senha"
@@ -118,11 +120,12 @@
             </com.google.android.material.textfield.TextInputLayout>
 
             <Button
+
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/login_entrar"
                 android:padding="16dp"
-                android:id="@+id/botao_entrar"
+                android:id="@+id/btn_entrar"
                 />
 
             <CheckBox

@@ -83,6 +83,7 @@
                 >
 
                 <EditText
+                    android:id="@+id/cadastro_usuario_senha"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:hint="@string/login_senha"
@@ -109,6 +110,7 @@
                 >
 
                 <EditText
+                    android:id="@+id/cadastro_usuario_nome"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:hint="Nome"
@@ -124,6 +126,7 @@
                 >
 
                 <EditText
+                    android:id="@+id/cadastro_usuario_profissao"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:hint="Profissão" />
@@ -137,6 +140,8 @@
                 >
 
                 <EditText
+                    android:inputType="numberDecimal"
+                    android:id="@+id/cadastro_usuario_altura"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:hint="Altura" />
@@ -159,6 +164,8 @@
                 >
 
                 <EditText
+
+                    android:id="@+id/cadastro_usuario_nascimento"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:hint="Data de Nascimento" />
@@ -185,6 +192,7 @@
                     android:orientation="horizontal">
 
                     <RadioButton
+                        android:id="@+id/radio_femino"
                         style="@style/TextAppearance.MaterialComponents.Body2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -192,6 +200,7 @@
                         android:textColor="#f666" />
 
                     <RadioButton
+                        android:id="@+id/radio_masculino"
                         style="@style/TextAppearance.MaterialComponents.Body2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
