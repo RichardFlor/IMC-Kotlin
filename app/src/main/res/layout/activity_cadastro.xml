@@ -168,7 +168,9 @@
                     android:id="@+id/cadastro_usuario_nascimento"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:hint="Data de Nascimento" />
+                    android:hint="Data de Nascimento"
+                    android:focusable="false"
+                    android:inputType="date"/>
             </com.google.android.material.textfield.TextInputLayout>
 
             <LinearLayout
