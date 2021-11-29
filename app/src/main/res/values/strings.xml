@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Health Calc</string>
+    <string name="app_titulo">HEALTH<br />\nCALC</string>
+    <string name="login_loginTitulo">Login</string>
+    <string name="login_loginSubTitulo">Log in to continue</string>
+    <string name="login_email">E-mail</string>
+    <string name="login_senha">Senha</string>
+    <string name="login_entrar">Entrar</string>
+    <string name="login_lembrar_me">Lembrar-me</string>
+    <string name="login_esqueci_a_senha">Esqueci a senha</string>
+    <string name="login_nao_tem_conta">Não tem conta?</string>
+    <string name="login_criar_uma_conta_agora">Criar uma conta agora</string>
+    <string name="login_origem">Feito na China</string>
+    <string name="ncd">NCD</string>
+    <string name="imc">IMC</string>
+    <string name="idade">Idade</string>
+    <string name="peso">Peso</string>
+    <string name="pesar_agora">Pesar Agora</string>
+    <string name="acompanhe_peso">Acompanhe o seu peso</string>
+    <string name="ver_historico">Ver Histórico</string>
+    <string name="rever_conquistas">Reveja suas conquistas</string>
+</resources>

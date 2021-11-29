@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="24dp"
+    android:paddingBottom="6dp"
+    android:paddingStart="32dp"
+    android:paddingEnd="32dp"
+    >
+    <androidx.cardview.widget.CardView
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        app:cardCornerRadius="32dp"
+        android:layout_gravity="end"
+        >
+        <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/delicia"/>
+    </androidx.cardview.widget.CardView>
+    <ImageView
+        android:layout_width="384dp"
+        android:layout_height="192dp"
+        android:scaleType="centerInside"
+        android:layout_gravity="center_horizontal"
+
+
+        android:src="@drawable/comentarios2"
+
+        />
+
+    <TextView
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Vamos nos pesar?"
+        style="@style/TextAppearance.MaterialComponents.Headline5"/>
+    <TextView
+        android:drawableStart="@drawable/ic_info_24"
+        android:drawablePadding="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="fdjklafjldmflmclkmklafmdkljmrioweuoiofjdiosjfjjksdjfkjio3u5438r8y8yrh78y78werh7hrudnf"
+        android:layout_marginBottom="48dp"
+        />
+    <TextView
+        android:drawableStart="@drawable/ic_accessibility_new_24"
+        android:drawablePadding="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/TextAppearance.MaterialComponents.Body1"
+        android:textColor="@color/primary"
+        android:text="Dados da sua pesagem"
+        android:layout_marginBottom="32dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Data de pesagem"
+        android:layout_marginBottom="4dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        style="@style/TextAppearance.MaterialComponents.Headline6"
+        android:text="20/11/2020"
+        android:layout_marginBottom="8dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nível de atividade"
+        android:layout_marginBottom="4dp"/>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        app:cardBackgroundColor="@color/primary_light"
+        android:layout_marginBottom="8dp"
+        >
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_arrow_drop_down_24"
+            android:layout_gravity="end"
+            />
+    </androidx.cardview.widget.CardView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Seu novo peso"
+        android:layout_marginBottom="4dp"/>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        app:boxBackgroundColor="#0000"
+        android:layout_marginBottom="8dp"
+        >
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="Kilogramas"
+            android:inputType="number"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+    <Button
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/login_entrar"
+        style="@style/TextAppearance.MaterialComponents.Headline5"
+        android:padding="12dp"
+        android:backgroundTint="@color/primary_dark"
+        android:textColor="@color/white"
+        android:id="@+id/botao_entrar"
+        />
+
+</LinearLayout>
