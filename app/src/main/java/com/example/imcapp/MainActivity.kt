@@ -4,6 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.provider.ContactsContract
+import android.util.Log
 import android.view.View
 import android.widget.Button
 import android.widget.EditText
@@ -53,6 +54,11 @@ class MainActivity : AppCompatActivity() {
         val email = arquivo.getString("email", "")
         val senha = arquivo.getString("senha", "")
 
+
+        Log.i("xpto", email!!)
+        Log.i("xpto", senha!!)
+        Log.i("xpto", emailDigitado!!)
+        Log.i("xpto", senhaDigitada!!)
 
 
         if (emailDigitado == email && senhaDigitada == senha){

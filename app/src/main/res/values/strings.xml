@@ -21,4 +21,10 @@
     <string name="rever_conquistas">Reveja suas conquistas</string>
     <string name="altura">Altura</string>
 
+    <string-array name="niveis">
+        <item>Atividade Leve</item>
+        <item>Atividade Moderada</item>
+        <item>Atividade Intensa</item>
+    </string-array>
+
 </resources>
